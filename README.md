@@ -11,3 +11,40 @@ Create and deploy your custom app in less time with fewer errors using sample co
 - Bash (Linux, MacOS or Git Bash)
 - [AWS account](https://aws.amazon.com/free) (non-production)
 - [Node.js](https://nodejs.org/en/download/) (optional)
+
+
+## Setup Tasks
+You will need to do the following preparation to be ready to complete the Developer Day Lab:
+### Okta Org
+1. Login as an admin (at least app and org admin)
+2. Create an API token
+3. Save the API token value
+4. Create a group called "ASA Access"
+5. Add yourself to the new group
+6. Add the Advanced Server Access application
+### ASA
+1. Create a new ASA team integrated with your Okta Org as the IDP
+2. Enable API provisioning in the ASA app
+3. Assign the ASA Access group to the app
+4. Push the ASA Access group to ASA
+5. In ASA, create a service user
+6. Create an API key for the service user and save the key and secret
+7. Assign the new service user to the Owners group
+### AWS
+1. Create a new IAM user on your non-production account that is API access only
+2. Assign the IAM user to a group including EC2Full and VPCFull access
+3. Create an API key for the IAM user and save the key and secret
+
+## Credentials
+You will need to have the following credentials handy in order to complete the lab:
+### Okta Org
+- Org name
+- Org base URL (i.e. oktapreview.com or okta.com)
+- API Token
+### ASA
+- API Key
+- API Secret
+- ASA Team Name
+### AWS
+- Access Key
+- Secret Key
