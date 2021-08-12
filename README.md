@@ -7,6 +7,7 @@ This repo includes the following Terraform configurations.
 1. Use the Okta Terraform Provider to configure your SPA app in your Okta Org.
 2. Create a new ASA project, assign server access, and create an enrollment token with the Okta ASA Terraform Provider.
 3. Leverage an AWS ASA Starter Kit terraform config to create an Ubuntu application server and deploy your application.
+
 The repo also includes several scripts to copy output data between the configurations.
 # Prerequisites and Lab Environment Setup
 This section covers configuring the environment that is required to complete this [Okta Developer Day](https://www.okta.com/developerday/) lab.
