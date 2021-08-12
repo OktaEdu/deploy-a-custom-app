@@ -1,7 +1,17 @@
 # Developer Day 2021 Lab: Deploy a custom SPA app with Terraform
-In this lab, you will leverage 3 Terraform configurations to deploy a Single Page App (SPA).
-## Overview
+
+## Description
 Create and deploy your custom app in less time with fewer errors using sample code and Terraform automation provided by Okta. In 90 minutes or less, you’ll learn how to do user mappings and assignments, and deploy your app into production. Easily tweak what you learn for your other apps. Developers, DevOps, and DevSecOps will benefit from this lab that showcases a typical CIAM use case.
+## Terraform Configs
+This repo includes the following Terraform configurations.
+1. Use the Okta Terraform Provider to configure your SPA app in your Okta Org.
+2. Create a new ASA project, assign server access, and create an enrollment token with the Okta ASA Terraform Provider.
+3. Leverage an AWS ASA Starter Kit terraform config to create an Ubuntu application server and deploy your application.
+The repo also includes several scripts to copy output data between the configurations.
+# Prerequisites and Lab Environment Setup
+This section covers configuring the environment that is required to complete this [Okta Developer Day](https://www.okta.com/developerday/) lab.
+## Setup Video
+In addition to the following, you can view this [environment setup video](https://www.youtube.com/watch?v=zhVWF4cKgW0).
 ## Prerequisites
 - [Developer](https://developer.okta.com/signup/) or Sandbox org
 - [ASA Team](https://app.scaleft.com/p/signupV2) with provisioning enabled
