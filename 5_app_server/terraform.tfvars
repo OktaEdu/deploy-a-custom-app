@@ -1,0 +1,6 @@
+access_key = "yourAWSaccesskey"
+secret_key = "yourAWSsecretkey"
+org_url = "https://yoursandboxorg.oktapreview.com"
+github_repo = "https://github.com/okta/samples-js-vue"
+enrollment_token = "updated by script"
+clientid = "updated by script"
