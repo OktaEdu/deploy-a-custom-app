@@ -11,6 +11,8 @@ This repo includes the following Terraform configurations.
 The repo also includes several scripts to copy output data between the configurations.
 # Prerequisites and Lab Environment Setup
 This section covers configuring the environment that is required to complete this [Okta Developer Day](https://www.okta.com/developerday/) lab.
+
+Please allow up to an hour to complete the setup tasks.
 ## Setup Video
 In addition to the following, you can view this [environment setup video](https://www.youtube.com/watch?v=zhVWF4cKgW0).
 ## Prerequisites
