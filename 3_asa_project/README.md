@@ -12,7 +12,7 @@ To use this configuration, edit the ../scripts/set_asa_tf_vars.sh file and enter
 
 The service account for the API key needs to have the team admin role (i.e. add to the Owners group)
 ## Optional: Using terraform.tfvars for this configuration
-If you would rather use a terraform.tfvars instead of environment variables, do the following
+If you would rather use a `terraform.tfvars` file instead of environment variables, do the following
 1. Create a `vars.tf file` as follows:
 ```
 variable "oktaasa_key" {}
