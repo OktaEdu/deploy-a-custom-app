@@ -41,7 +41,7 @@ provider "oktaasa" {
   oktaasa_team   = var.oktaasa_team
 }
 ```
-3. Create a `terraform.tfvar`s file
+3. Create a `terraform.tfvars` file
 ```
 oktaasa_key        = "yourasaserviceaccountkey"
 oktaasa_secret = "yourasaserviceaccountsecret"
