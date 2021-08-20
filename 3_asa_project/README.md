@@ -5,7 +5,7 @@ This Terraform configuration provides an example of creating an ASA project to e
 - Assigns a provisioned group to the project
 - Creates an enrollment token
 ## Using this configuration
-To use this configuration, edit the ../scripts/set_asa_tf_vars.sh file and enter the information for your ASA team
+To use this configuration, edit the `../scripts/set_asa_tf_vars.sh` file and enter the information for your ASA team
 - Team name
 - Service Account Key
 - Service Account Secret
