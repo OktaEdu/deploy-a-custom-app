@@ -46,6 +46,7 @@ There are 3 ways to complete the labs.
 2. Edit the **terraform.tfvars** for the [Okta Org config](https://github.com/OktaEdu/deploy-a-custom-app/tree/main/1_org_spa_app).
 
    `terraform init`
+   
    `terraform apply`
 
 3. You now have the following in your org:
