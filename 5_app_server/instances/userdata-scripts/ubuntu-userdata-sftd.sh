@@ -37,7 +37,7 @@ echo "Install sftd"
 sudo apt-get install scaleft-server-tools=${sftd_version}
 
 echo "Configuring Vue SPA Sample App"
-sudo wget https://github.com/dsilvest/okta-samples-js-vue-hosted-login/archive/refs/heads/main.zip
+sudo wget https://github.com/OktaEdu/deploy-a-custom-app/archive/refs/heads/main.zip
 apt install -y unzip
 sudo unzip main.zip
-sudo bash okta-samples-js-vue-hosted-login-main/bare_metal_install.sh ${org_url} ${clientid} ${github_repo}
+sudo bash deploy-a-custom-app-main/scripts/bare_metal_install.sh ${org_url} ${clientid} ${github_repo}
