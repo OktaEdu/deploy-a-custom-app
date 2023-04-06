@@ -51,6 +51,7 @@ service apache2 restart
 #start sample code install and configuration
 `$github`
 cd samples-js-vue
+cd */samples-js-vue
 echo "ISSUER=$issuer" > testenv
 echo "CLIENT_ID=$clientid" >> testenv
 cd okta-hosted-login
